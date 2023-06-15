@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Variable 'name' is defined as 'Dane'
+// then the code block checks if variable 'name' is equil to "Mary"
+// and if it is then the console will display 'Hi, Mary!'
+//if it does not, the console will display 'How do you do?'
 
 //CODE
 /*
