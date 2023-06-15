@@ -28,8 +28,8 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // Variable 'name' is defined as 'Dane'
 // then the code block checks if variable 'name' is equil to "Mary"
-// and if it is then the console will display 'Hi, Mary!'
-//if it does not, the console will display 'How do you do?'
+// and if it is then the console will log 'Hi, Mary!'
+//if it does not, the console will log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Variable 'secret' is left undefined for future use and variable 'code' is defined as 123
+// the 1st if statement is run and checks if 'code' is equil to 123 and if so it passes the string "super" to var 'secret'
+// it also changes the variable 'code' to code * 2 or (123 multiplied by 2)
+// if the first if statement (code === 123) is false then the second if statement runs  and check if 'code' greater than 250 
+// then is passes the string "duper" to the variable 'secret'
+// then the console logs the variable 'secret'. (either "super" or "duper")
 
 //CODE
 /*
@@ -70,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// 3 variables are defined. isStudent is set to true, age is set to 34 and zip is set to 55407
+// then the code block checks if isStudent is equil to true AND if zip is greater than 80000
+// if both are true then the console will log `You're a student on the West Coast!`
+// if they do not then it checks if isStudent is equil to false OR age is less than 30 and if EITHER are true then the console will log 'What are your hobbies?'
+// if neither are true then it checks if isStudent is equil to true, if it does then the console will log 'Welcome to Prime!'
+// last if all previous statements are false then the console will log 'How about the weather?'
+
 
 //CODE
 /*
@@ -130,10 +135,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne should be set to 'blue' and colorTwo should be set to 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// colorOne AND colorTwo should be set to 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
