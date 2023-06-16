@@ -171,9 +171,9 @@ const minAge = 21;
 
 // The if statement should read as (age >= minAge) and the if and else console.log statements should be swapped.
 if(minAge <= age) {
-  console.log('no entry');
+  console.log('no entry'); //this should be 'enter'
 } else {
-  console.log('enter');
+  console.log('enter'); //this should be 'no entry'
 }
 */
 
