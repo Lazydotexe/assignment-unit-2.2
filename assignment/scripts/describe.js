@@ -77,7 +77,7 @@ console.log(secret)
 // if both are true then the console will log `You're a student on the West Coast!`
 // if they do not then it checks if isStudent is equil to false OR age is less than 30 and if EITHER are true then the console will log 'What are your hobbies?'
 // if neither are true then it checks if isStudent is equil to true, if it does then the console will log 'Welcome to Prime!'
-// last if all previous statements are false then the console will log 'How about the weather?'
+// last, if all previous statements are false then the console will log 'How about the weather?'
 
 
 //CODE
@@ -154,6 +154,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// replace the || with &&
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -167,6 +168,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+
+// The if statement should read as (age >= minAge) and the if and else console.log statements should be swapped.
 if(minAge <= age) {
   console.log('no entry');
 } else {
