@@ -30,6 +30,7 @@ if (number >= 2) {
 // then the code block checks if variable 'name' is equil to "Mary"
 // and if it is then the console will log 'Hi, Mary!'
 //if it does not, the console will log 'How do you do?'
+//in this case the console will log 'How do you do?
 
 //CODE
 /*
@@ -48,9 +49,9 @@ if (name === 'Mary') {
 // Variable 'secret' is left undefined for future use and variable 'code' is defined as 123
 // the 1st if statement is run and checks if 'code' is equil to 123 and if so it passes the string "super" to var 'secret'
 // it also changes the variable 'code' to code * 2 or (123 multiplied by 2)
-// if the first if statement (code === 123) is false then the second if statement runs  and check if 'code' greater than 250 
-// then is passes the string "duper" to the variable 'secret'
-// then the console logs the variable 'secret'. (either "super" or "duper")
+// once the first if statement runs then the second if statement runs  and check if 'code' greater than 250 
+// if it is then it overrides the 1st if statement then it passes the string "duper" to the variable 'secret'
+// then the console logs 'super'.
 
 //CODE
 /*
@@ -72,12 +73,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 3 variables are defined. isStudent is set to true, age is set to 34 and zip is set to 55407
-// then the code block checks if isStudent is equil to true AND if zip is greater than 80000
-// if both are true then the console will log `You're a student on the West Coast!`
-// if they do not then it checks if isStudent is equil to false OR age is less than 30 and if EITHER are true then the console will log 'What are your hobbies?'
-// if neither are true then it checks if isStudent is equil to true, if it does then the console will log 'Welcome to Prime!'
-// last, if all previous statements are false then the console will log 'How about the weather?'
+/* Three variable are defiened; isStudent with a value of true, age with a value
+of 34 and zip with a value of 55407.
+then a if statment is run the checks if isStudent is equil to true AND zip is 
+greater than 8000 the console will log `You're a student on the West Coast!`
+if both of those conditions are not met(which 55407 is not greater than 8000) then it will try the next else if statement
+of isStudent is equil to false OR age < 30. If at least one of those is true then the
+console will log 'What are your hobbies?'
+if neither are true then it will run the next else if statement isStudent equil to true
+if this statement is truen the console will log 'Welcome to Prime!'
+if that last else if statment is false then it will run the final part else which will
+log 'How about the weather?' only if all the previous statements did not trigger.
+In this case the console should log 'Welcome to Prime!'  */
 
 
 //CODE
